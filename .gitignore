@@ -1,0 +1,6 @@
+*.exe
+*.dll
+*.love
+*.zip
+.DS_Store
+Thumbs.db
