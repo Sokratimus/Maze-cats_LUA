@@ -2,6 +2,16 @@ local GRID_SIZE = 25
 local cellSize = 32
 local tunnelIdCounter = 1
 local tunnelStats = {}
+endBtnX = 1520
+endBtnY = 250
+endBtnW = 80
+endBtnH = 80
+local predefinedColors = {
+    {1, 0, 0},   -- 1. Красный
+    {0, 0, 1},   -- 2. Синий
+    {0, 1, 0},   -- 3. Зелёный
+    {1, 0, 1}    -- 4. Розовый
+}
 
 
 local selectedCard = {
@@ -13,7 +23,7 @@ local cardList = { "straight", "cross", "t", "corner", "deadend", "empty" }
 
 function love.load()
     love.graphics.setBackgroundColor(0.7, 0.7, 0.7)
-    love.window.setMode(1080, 720, {resizable = true, minwidth = 300, minheight = 300})
+    love.window.setMode(1920, 1080, {resizable = false})
 
     tiles = {
         straight = love.graphics.newImage("assets/tiles/Straight.jpg"),
@@ -37,25 +47,21 @@ function love.load()
         end
     end
 
-    player = nil
-    playerTurnActive = false
+    players = {}
+    currentPlayerIndex = 1 
     
+    playerTurnActive = false
+    movingPlayer = false
+    currentPlayerIndex = 1
     images = {
-    cardBack = love.graphics.newImage("assets/ui/card_back.png") -- та что ты вырезал
+    cardBack = love.graphics.newImage("assets/ui/card_back.png"),
+    endTurn = love.graphics.newImage("assets/ui/end_turn.jpg")
     }
-
-    playerHand = {}
-
-    for i = 1, 6 do
-        table.insert(playerHand, {
-            type = cardList[math.random(#cardList)],
-            x = 0, y = 0,
-            hover = false
-        })
-    end
 
     selectedFromHand = nil
     drawnCard = nil
+
+    addNewPlayer()
 end
 
 
@@ -65,7 +71,8 @@ function love.update(dt)
     local cardW, cardH = 128, 192
 
     -- Обновляем положение карт в руке
-    for i, card in ipairs(playerHand) do
+    local hand = players[currentPlayerIndex] and players[currentPlayerIndex].hand or {}
+    for i, card in ipairs(hand) do
         local handX = winW - 300 + (i - 1) * 40
         local handY = winH - 140 + math.sin(i) * 5
         local angle = math.rad(-30 + i * 10)
@@ -96,6 +103,75 @@ function drawNewCard()
     if not drawnCard then
         drawnCard = drawRandomCard()
     end
+end
+
+function addNewPlayer()
+    if #players >= 4 then return end
+
+    local spawnX, spawnY, rotation
+
+    if #players == 0 then
+        -- Гравець 1 — знизу, має відкрите вверх → поворот = 270
+        spawnX = math.ceil(GRID_SIZE / 2)
+        spawnY = GRID_SIZE
+        rotation = 270
+    elseif #players == 1 then
+        -- Гравець 2 — зверху, має відкрите вниз → поворот = 90
+        spawnX = math.ceil(GRID_SIZE / 2)
+        spawnY = 1
+        rotation = 90
+    elseif #players == 2 then
+        -- Гравець 3 — праворуч, має відкрите вліво → поворот = 180
+        spawnX = GRID_SIZE
+        spawnY = math.ceil(GRID_SIZE / 2)
+        rotation = 180
+    elseif #players == 3 then
+        -- Гравець 4 — ліворуч, має відкрите вправо → поворот = 0
+        spawnX = 1
+        spawnY = math.ceil(GRID_SIZE / 2)
+        rotation = 0
+    end
+
+    local newId = tunnelIdCounter
+    tunnelIdCounter = tunnelIdCounter + 1
+
+    grid[spawnY][spawnX] = {
+        type = "deadend",
+        rotation = rotation,
+        tunnelId = newId,
+        occupied = false
+    }
+
+    local exits = 0
+    local sides = getOpenSides({type = "deadend", rotation = rotation})
+    for _, v in pairs(sides) do
+        if v then exits = exits + 1 end
+    end
+
+    tunnelStats[newId] = {
+        tileCount = 1,
+        exitScore = exits
+    }
+
+    local hand = {}
+    for i = 1, 6 do
+        table.insert(hand, {
+            type = cardList[math.random(#cardList)],
+            rotation = 0,
+            x = 0, y = 0,
+            hover = false
+        })
+    end
+
+    table.insert(players, {
+        x = spawnX,
+        y = spawnY,
+        hand = hand,
+        color = predefinedColors[#players + 1],
+        canMove = false,
+        turnStage = "place",
+        placedCard = false
+    })
 end
 
 function pointInTriangle(px, py, ax, ay, bx, by, cx, cy)
@@ -257,19 +333,22 @@ function getExitDelta(tileType)
     return 0
 end
 
-function mergeTunnels(targetId, otherId)
+function mergeTunnels(mainId, otherIds)
     for y = 1, GRID_SIZE do
         for x = 1, GRID_SIZE do
             local cell = grid[y][x]
-            if cell.tunnelId == otherId then
-                cell.tunnelId = targetId
+            if cell.tunnelId and otherIds[cell.tunnelId] then
+                cell.tunnelId = mainId
             end
         end
     end
-    if tunnelStats[otherId] then
-        tunnelStats[targetId].tileCount = tunnelStats[targetId].tileCount + tunnelStats[otherId].tileCount
-        tunnelStats[targetId].exitScore = tunnelStats[targetId].exitScore + tunnelStats[otherId].exitScore
-        tunnelStats[otherId] = nil
+
+    for id in pairs(otherIds) do
+        if id ~= mainId and tunnelStats[id] then
+            tunnelStats[mainId].tileCount = tunnelStats[mainId].tileCount + tunnelStats[id].tileCount
+            tunnelStats[mainId].exitScore = tunnelStats[mainId].exitScore + tunnelStats[id].exitScore
+            tunnelStats[id] = nil
+        end
     end
 end
 
@@ -329,13 +408,20 @@ function getConnectedNeighbors(x, y, cardType, rotation)
 end
 
 function isPlacementValid(x, y, cardType, rotation)
+    if grid[y][x].type ~= "void" then
+        return false
+    end
+
+    local openSides = getOpenSides({type = cardType, rotation = rotation})
+    local directions = {
+        {dx=0, dy=-1, side="up", opp="down"},
+        {dx=0, dy=1,  side="down", opp="up"},
+        {dx=-1, dy=0, side="left", opp="right"},
+        {dx=1, dy=0,  side="right", opp="left"}
+    }
+
+    -- Обробка пустих тайлів
     if cardType == "empty" then
-        local directions = {
-            {dx=0, dy=-1, side="down"},
-            {dx=0, dy=1,  side="up"},
-            {dx=-1, dy=0, side="right"},
-            {dx=1, dy=0,  side="left"}
-        }
         for _, dir in ipairs(directions) do
             local nx, ny = x + dir.dx, y + dir.dy
             if nx >= 1 and nx <= GRID_SIZE and ny >= 1 and ny <= GRID_SIZE then
@@ -351,49 +437,62 @@ function isPlacementValid(x, y, cardType, rotation)
         return true
     end
 
-    local openSides = getOpenSides({type = cardType, rotation = rotation})
-    local directions = {
-        {dx=0, dy=-1, side="up", opp="down"},
-        {dx=0, dy=1,  side="down", opp="up"},
-        {dx=-1, dy=0, side="left", opp="right"},
-        {dx=1, dy=0,  side="right", opp="left"}
-    }
-
+    local hasConnection = false
+    local seenTunnels = {}
     local totalExitScore = 0
     local overlapCount = 0
-    local seenTunnels = {}
-    local connected = false
 
-    -- Додаємо нові виходи
-    local newExits = 0
-    for side, open in pairs(openSides) do
-        if open then newExits = newExits + 1 end
-    end
-    totalExitScore = totalExitScore + newExits
-
-    -- Додаємо існуючі виходи + враховуємо перекриття
     for _, dir in ipairs(directions) do
         local nx, ny = x + dir.dx, y + dir.dy
         if nx >= 1 and nx <= GRID_SIZE and ny >= 1 and ny <= GRID_SIZE then
             local neighbor = grid[ny][nx]
             if neighbor and neighbor.type ~= "void" and neighbor.tunnelId then
                 local neighborSides = getOpenSides(neighbor)
-                if openSides[dir.side] and neighborSides[dir.opp] then
-                    overlapCount = overlapCount + 2  -- 1 новий + 1 сусідній
-                    connected = true
+                local thisSide = openSides[dir.side]
+                local neighborSide = neighborSides[dir.opp]
+
+                if thisSide and neighborSide then
+                    hasConnection = true
+                    overlapCount = overlapCount + 2
+                elseif thisSide ~= neighborSide then
+                    return false -- Несовместимое соединение
                 end
+
                 if not seenTunnels[neighbor.tunnelId] then
                     seenTunnels[neighbor.tunnelId] = true
-                    totalExitScore = totalExitScore + (tunnelStats[neighbor.tunnelId] and tunnelStats[neighbor.tunnelId].exitScore or 0)
+                    local stats = tunnelStats[neighbor.tunnelId]
+                    if stats then
+                        totalExitScore = totalExitScore + stats.exitScore
+                    end
                 end
             end
         end
     end
 
-    local netScore = totalExitScore - overlapCount
+    local newExits = 0
+    for _, open in pairs(openSides) do
+        if open then newExits = newExits + 1 end
+    end
 
-    if netScore <= 0 then return false end
-    return connected
+    local netScore = totalExitScore + newExits - overlapCount
+
+    if not hasConnection then
+        return false
+    end
+
+    if cardType == "deadend" then
+        if netScore <= 0 then return false end
+    end
+
+    if cardType ~= "deadend" then
+        if netScore <= 0 then return false end
+    end
+
+    return true
+end
+
+function endTurn()
+    currentPlayerIndex = currentPlayerIndex % #players + 1
 end
 
 function love.mousepressed(mx, my, button)
@@ -420,68 +519,31 @@ function love.mousepressed(mx, my, button)
     end
 
     -- Выбор карты из колоды (drawnCard)
-    if drawnCard and drawnCard.type and drawnCard.hover and button == 1 then
+    local currentPlayer = players[currentPlayerIndex]
+    if not currentPlayer.placedCard and drawnCard and drawnCard.type and drawnCard.hover and button == 1 then
         selectedCard.type = drawnCard.type
         selectedCard.rotation = drawnCard.rotation or 0
         selectedFromHand = "drawn"
         return
     end
-
--- Размещение карты
-    for i, card in ipairs(playerHand) do
-    if card.hover and button == 1 then
-        if drawnCard then
-            if #playerHand < 6 then
-                -- Добавляем в руку, если есть место
-                table.insert(playerHand, {
-                    type = drawnCard.type,
-                    rotation = drawnCard.rotation or 0,
-                    x = 0, y = 0,
-                    hover = false
-                })
-            else
-                -- Если рука полная — заменяем сразу
-                playerHand[i] = {
-                    type = drawnCard.type,
-                    rotation = drawnCard.rotation or 0,
-                    x = 0, y = 0,
-                    hover = false
-                }
-            end
-
-            -- Очищаем состояние
-            drawnCard = nil
-            selectedCard.type = nil
-            selectedCard.rotation = 0
-            selectedFromHand = nil
-            replacementIndex = nil
-            return
-        end
-
-        -- Обычный выбор карты из руки
-        selectedCard.type = card.type
-        selectedCard.rotation = card.rotation or 0
-        selectedFromHand = i
-        return
-    end
-end
-    if drawnCard and drawnCard.type and #playerHand < 6 and button == 1 then
+    local hand = players[currentPlayerIndex] and players[currentPlayerIndex].hand or {}
+    if drawnCard and selectedFromHand == "drawn" and #hand < 6 and button == 1 then
         local winW, winH = love.graphics.getDimensions()
         local cardW, cardH = 128, 192
         local handY = winH - 140
 
-        -- правая граница — немного правее последней карты
-        local startX = winW - 300
-        local endX = startX + (#playerHand) * 40 + cardW / 2
-        local mx, my = love.mouse.getPosition()
+        local startX = winW - 350
+        local zoneW = 5 * 40 + cardW -- фиксированная ширина под 6 карт
+        local zoneH = cardH
 
-        if mx >= startX and mx <= endX and my >= handY - cardH/2 and my <= handY + cardH/2 then
-            table.insert(playerHand, {
+        if mx >= startX and mx <= startX + zoneW and my >= handY - cardH / 2 and my <= handY + cardH / 2 then
+            table.insert(hand, {
                 type = drawnCard.type,
                 rotation = drawnCard.rotation or 0,
                 x = 0, y = 0,
                 hover = false
             })
+
             drawnCard = nil
             selectedCard.type = nil
             selectedCard.rotation = 0
@@ -489,6 +551,48 @@ end
             return
         end
     end
+    -- Размещение карты
+
+
+    for i, card in ipairs(hand) do
+        local currentPlayer = players[currentPlayerIndex]
+        if currentPlayer.placedCard then break end
+        if card.hover and button == 1 then
+            if drawnCard and selectedFromHand == "drawn" then
+                if #hand < 6 then
+                    -- Добавляем в руку, если есть место
+                    table.insert(hand, {
+                        type = drawnCard.type,
+                        rotation = drawnCard.rotation or 0,
+                        x = 0, y = 0,
+                        hover = false
+                    })
+                else
+                    -- Если рука полная — заменяем сразу
+                    hand[i] = {
+                        type = drawnCard.type,
+                        rotation = drawnCard.rotation or 0,
+                        x = 0, y = 0,
+                        hover = false
+                    }
+                end
+
+                -- Очистить
+                drawnCard = nil
+                selectedCard.type = nil
+                selectedCard.rotation = 0
+                selectedFromHand = nil
+                return
+            end
+
+            -- Обычный выбор карты из руки
+            selectedCard.type = card.type
+            selectedCard.rotation = card.rotation or 0
+            selectedFromHand = i
+            return
+        end
+    end
+
 
     if selectedCard.type and selectedFromHand then
         local offsetX = (winW - cellSize * GRID_SIZE) / 2
@@ -502,6 +606,7 @@ end
 
             if isPlacementValid(gridX, gridY, newType, newRot) then
                 grid[gridY][gridX].type = newType
+                currentPlayer.placedCard = true
                 grid[gridY][gridX].rotation = newRot
                 local neighbors = {}
                 for _, dir in ipairs({{0,-1}, {0,1}, {-1,0}, {1,0}}) do
@@ -521,10 +626,14 @@ end
                     tunnelStats[idToUse] = {tileCount = 0, exitScore = 0}
                 else
                     idToUse = neighbors[1]
-                    for i = 2, #neighbors do
-                        if neighbors[i] ~= idToUse then
-                            mergeTunnels(idToUse, neighbors[i])
+                    local toMerge = {}
+                    for _, tid in ipairs(neighbors) do
+                        if tid ~= idToUse then
+                            toMerge[tid] = true
                         end
+                    end
+                    if next(toMerge) then
+                        mergeTunnels(idToUse, toMerge)
                     end
                 end
 
@@ -537,7 +646,7 @@ end
                     drawnCard = nil
                     selectedFromHand = nil
                 else
-                    table.remove(playerHand, selectedFromHand)
+                    table.remove(hand, selectedFromHand)
                     selectedFromHand = nil
                 end
 
@@ -554,36 +663,9 @@ end
     local buttonX = 20
     local buttonY = love.graphics.getHeight() - buttonH - 20
     if mx >= buttonX and mx <= buttonX + buttonW and my >= buttonY and my <= buttonY + buttonH then
-        if not player then
-            local spawnX = math.ceil(GRID_SIZE / 2)
-            local spawnY = GRID_SIZE
-
-            local newId = tunnelIdCounter
-            tunnelIdCounter = tunnelIdCounter + 1
-
-            grid[spawnY][spawnX] = {
-                type = "deadend",
-                rotation = 270,
-                tunnelId = newId,
-                occupied = false
-            }
-
-            local openSides = getOpenSides(grid[spawnY][spawnX])
-            local exitScore = 0
-            for _ in pairs(openSides) do
-                exitScore = exitScore + 1
-            end
-
-            tunnelStats[newId] = {
-                tileCount = 1,
-                exitScore = exitScore
-            }
-
-            -- ось це треба додати назад
-            player = { x = spawnX, y = spawnY }
-        end
-    return
-end
+        addNewPlayer()
+        return
+    end
 
     -- Активация хода игрока
     local turnBtnW, turnBtnH = 160, 40
@@ -597,17 +679,25 @@ end
     end
 
     -- Перемещение игрока
-    if playerTurnActive and player and button == 1 then
+    if button == 1 and movingPlayer and currentPlayer.turnStage == "move" then
         local offsetX = (winW - cellSize * GRID_SIZE) / 2
         local offsetY = (winH - cellSize * GRID_SIZE) / 2
         local gridX = math.floor((mx - offsetX) / cellSize) + 1
         local gridY = math.floor((my - offsetY) / cellSize) + 1
 
         if gridX >= 1 and gridX <= GRID_SIZE and gridY >= 1 and gridY <= GRID_SIZE then
-            if canMove(player.x, player.y, gridX, gridY) then
-                player.x = gridX
-                player.y = gridY
-                playerTurnActive = false
+            if canMove(currentPlayer.x, currentPlayer.y, gridX, gridY) then
+                currentPlayer.x = gridX
+                currentPlayer.y = gridY
+                currentPlayer.turnStage = "done"
+                movingPlayer = false
+
+                -- Перехід до наступного гравця
+                currentPlayerIndex = currentPlayerIndex % #players + 1
+                local nextPlayer = players[currentPlayerIndex]
+                nextPlayer.turnStage = "place"
+                nextPlayer.placedCard = false
+                drawnCard = drawRandomCard()
             end
         end
     end
@@ -624,19 +714,38 @@ end
         return
     end
 
+    -- Кнопка "Кінець ходу"
+    if button == 1 and
+        mx >= endBtnX and mx <= endBtnX + endBtnW and
+        my >= endBtnY and my <= endBtnY + endBtnH
+    then
+        local player = players[currentPlayerIndex]
+        if player.turnStage == "place" then
+            player.turnStage = "move"
+            movingPlayer = true
+        elseif player.turnStage == "move" then
+            currentPlayerIndex = currentPlayerIndex % #players + 1
+            local nextPlayer = players[currentPlayerIndex]
+            nextPlayer.turnStage = "place"
+            nextPlayer.placedCard = false
+            drawnCard = drawRandomCard()
+        end
+        return
+    end
+
     local winW, winH = love.graphics.getDimensions()
     local offsetXGrid = (winW - cellSize * GRID_SIZE) / 2
     local offsetYGrid = (winH - cellSize * GRID_SIZE) / 2
 
--- Сброс карты, если нажали вне поля и карта выбрана
-if selectedFromHand and not (
-    mx >= offsetXGrid and mx <= offsetXGrid + GRID_SIZE * cellSize and
-    my >= offsetYGrid and my <= offsetYGrid + GRID_SIZE * cellSize
-) then
-    selectedCard.type = nil
-    selectedCard.rotation = 0
-    selectedFromHand = nil
-end
+    -- Сброс карты, если нажали вне поля и карта выбрана
+    if selectedFromHand and not (
+        mx >= offsetXGrid and mx <= offsetXGrid + GRID_SIZE * cellSize and
+        my >= offsetYGrid and my <= offsetYGrid + GRID_SIZE * cellSize
+    ) then
+        selectedCard.type = nil
+        selectedCard.rotation = 0
+        selectedFromHand = nil
+    end
 
     -- Сброс вытянутой карты
     local deckW, deckH = 128, 192
@@ -734,16 +843,25 @@ function love.draw()
         drawCardPreview(selectedCard.type, mx - cardSize / 2, my - cardSize / 2, cardSize, selectedCard.rotation)
     end
 
-    -- Игрок
-    if player then
-        local px = offsetX + (player.x - 1) * cellSize + cellSize / 2
-        local py = offsetY + (player.y - 1) * cellSize + cellSize / 2
-        if playerTurnActive then
-            love.graphics.setColor(1, 1, 0)
-        else
-            love.graphics.setColor(1, 0, 0)
-        end
+    -- Отрисовка всех игроков
+    for i, p in ipairs(players) do
+        local px = offsetX + (p.x - 1) * cellSize + cellSize / 2
+        local py = offsetY + (p.y - 1) * cellSize + cellSize / 2
+
+        -- Всегда основной цвет игрока
+        love.graphics.setColor(p.color)
         love.graphics.circle("fill", px, py, cellSize / 4)
+
+        -- Если активный — рисуем рамку
+        if i == currentPlayerIndex then
+            if movingPlayer then
+                love.graphics.setColor(1, 0.4, 0)
+            else
+                love.graphics.setColor(1, 1, 0)
+            end
+            love.graphics.setLineWidth(3)
+            love.graphics.circle("line", px, py, cellSize / 4 + 2)
+        end
     end
 
     -- Кнопки
@@ -775,7 +893,8 @@ function love.draw()
     local cardW, cardH = 128, 192
 
     -- Сначала рисуем все НЕ наведённые карты
-    for i, card in ipairs(playerHand) do
+    local hand = players[currentPlayerIndex] and players[currentPlayerIndex].hand or {}
+    for i, card in ipairs(hand) do
         local angle = math.rad(-30 + i * 10)
         if not card.hover then
             drawCardWithIcon(card.x, card.y, cardW, cardH, angle,
@@ -784,7 +903,7 @@ function love.draw()
     end
 
     -- Потом наведённые — они сверху и масштабируются
-    for i, card in ipairs(playerHand) do
+    for i, card in ipairs(hand) do
         local angle = math.rad(-30 + i * 10)
         if card.hover then
             drawCardWithIcon(card.x, card.y, cardW, cardH, angle,
@@ -802,10 +921,15 @@ function love.draw()
     love.graphics.setColor(1, 1, 1)
     love.graphics.printf("Вытянуть карту", 380, winH - 50, 160, "center")
 
-    if player then
-        local tile = grid[player.y][player.x]
-        love.graphics.setColor(0, 0, 0)
-        love.graphics.print("Tile ID: " .. (tile.tunnelId or "nil") .. 
-        ", ExitScore: " .. (tunnelStats[tile.tunnelId] and tunnelStats[tile.tunnelId].exitScore or "nil"), 20, 20)
-    end
+
+    local endBtnW = 80
+    local endBtnH = 80
+    local endBtnX = winW - 400
+    local endBtnY = 250
+
+    love.graphics.setColor(1, 1, 1)
+    love.graphics.draw(images.endTurn, endBtnX, endBtnY, 0,
+        endBtnW / images.endTurn:getWidth(),
+        endBtnH / images.endTurn:getHeight()
+    )
 end
