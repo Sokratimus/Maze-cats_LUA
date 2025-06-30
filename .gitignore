@@ -4,3 +4,5 @@
 *.zip
 .DS_Store
 Thumbs.db
+game_log.txt
+log

@@ -1,0 +1,2627 @@
+[09:44:52] 🚀 Логгер запущено
+[09:44:52] draw.update — player.hand size: 0
+[09:44:52] [RECV] SYNC:{"players":[{"y":25,"x":13,"placedCard":false,"color":[1,0,0],"hand":[{"rotation":0,"type":"corner","hover":false,"y":0,"x":0},{"rotation":0,"type":"cross","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0},{"rotation":0,"type":"corner","hover":false,"y":0,"x":0},{"rotation":0,"type":"t","hover":false,"y":0,"x":0},{"rotation":0,"type":"t","hover":false,"y":0,"x":0}],"turnStage":"place"},{"y":1,"x":13,"placedCard":false,"color":[0,0,1],"hand":[{"rotation":0,"type":"empty","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0},{"rotation":0,"type":"cross","hover":false,"y":0,"x":0},{"rotation":0,"type":"empty","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0}],"turnStage":"place"}],"currentPlayerIndex":1,"grid":[[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":90,"type":"deadend","occupied":false,"tunnelId":2},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":270,"type":"deadend","occupied":false,"tunnelId":1},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}]]}
+[09:44:52] applyGameState викликано
+[09:44:52] Успішно розібрано SYNC
+[09:44:52] 🧍 Кількість гравців: 2
+[09:44:52] Гравець 1: x=13, y=25
+[09:44:52] Гравець 2: x=13, y=1
+[09:44:52] Ваш ID: 2
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] SYNC:{"players":[{"y":25,"x":13,"placedCard":false,"color":[1,0,0],"hand":[{"hover":false,"type":"corner","x":0,"rotation":0,"y":0},{"hover":false,"type":"cross","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0},{"hover":false,"type":"corner","x":0,"rotation":0,"y":0},{"hover":false,"type":"t","x":0,"rotation":0,"y":0},{"hover":false,"type":"t","x":0,"rotation":0,"y":0}],"turnStage":"place"},{"y":1,"x":13,"placedCard":false,"color":[0,0,1],"hand":[{"hover":false,"type":"empty","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0},{"hover":false,"type":"cross","x":0,"rotation":0,"y":0},{"hover":false,"type":"empty","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0}],"turnStage":"place"}],"currentPlayerIndex":1,"grid":[[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":90,"type":"deadend","occupied":false,"tunnelId":2},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":270,"type":"deadend","occupied":false,"tunnelId":1},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}]]}
+[09:44:52] applyGameState викликано
+[09:44:52] Успішно розібрано SYNC
+[09:44:52] 🧍 Кількість гравців: 2
+[09:44:52] Гравець 1: x=13, y=25
+[09:44:52] Гравець 2: x=13, y=1
+[09:44:52] Ваш ID: 2
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:52] [RECV] 
+[09:44:52] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:53] [RECV] 
+[09:44:53] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:54] [RECV] 
+[09:44:54] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] START:
+[09:44:55] Отримано команду START
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] SYNC:{"players":[{"y":25,"x":13,"placedCard":false,"color":[1,0,0],"hand":[{"hover":false,"type":"corner","x":0,"rotation":0,"y":0},{"hover":false,"type":"cross","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0},{"hover":false,"type":"corner","x":0,"rotation":0,"y":0},{"hover":false,"type":"t","x":0,"rotation":0,"y":0},{"hover":false,"type":"t","x":0,"rotation":0,"y":0}],"turnStage":"place"},{"y":1,"x":13,"placedCard":false,"color":[0,0,1],"hand":[{"hover":false,"type":"empty","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0},{"hover":false,"type":"cross","x":0,"rotation":0,"y":0},{"hover":false,"type":"empty","x":0,"rotation":0,"y":0},{"hover":false,"type":"deadend","x":0,"rotation":0,"y":0}],"turnStage":"wait"}],"currentPlayerIndex":1,"grid":[[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":90,"type":"deadend","occupied":false,"tunnelId":2},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":270,"type":"deadend","occupied":false,"tunnelId":1},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}]]}
+[09:44:55] applyGameState викликано
+[09:44:55] Успішно розібрано SYNC
+[09:44:55] 🧍 Кількість гравців: 2
+[09:44:55] Гравець 1: x=13, y=25
+[09:44:55] Гравець 2: x=13, y=1
+[09:44:55] Ваш ID: 2
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:55] [RECV] 
+[09:44:55] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:56] [RECV] 
+[09:44:56] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:57] [RECV] 
+[09:44:57] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:58] [RECV] 
+[09:44:58] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:44:59] [RECV] 
+[09:44:59] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:00] [RECV] 
+[09:45:00] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6
+[09:45:01] [RECV] 
+[09:45:01] draw.update — player.hand size: 6

@@ -1,0 +1,3712 @@
+[03:35:24] 🚀 Логгер запущено
+[03:35:24] draw.update — player.hand size: 0
+[03:35:24] [RECV] SYNC:{"players":[{"y":24,"x":13,"placedCard":true,"color":[1,0,0],"hand":[{"rotation":0,"type":"corner","hover":false,"y":0,"x":0},{"rotation":0,"type":"cross","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0},{"rotation":0,"type":"corner","hover":false,"y":0,"x":0},{"rotation":0,"type":"t","hover":false,"y":0,"x":0}],"turnStage":"done"},{"y":2,"x":13,"placedCard":true,"color":[0,0,1],"hand":[{"rotation":0,"type":"empty","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0},{"rotation":0,"type":"empty","hover":false,"y":0,"x":0},{"rotation":0,"type":"deadend","hover":false,"y":0,"x":0}],"turnStage":"done"},{"y":13,"x":25,"placedCard":false,"color":[0,1,0],"hand":[{"rotation":0,"type":"corner","hover":false,"y":0,"x":0},{"rotation":0,"type":"cross","hover":false,"y":0,"x":0},{"rotation":0,"type":"straight","hover":false,"y":0,"x":0},{"rotation":0,"type":"straight","hover":false,"y":0,"x":0},{"rotation":0,"type":"t","hover":false,"y":0,"x":0},{"rotation":0,"type":"straight","hover":false,"y":0,"x":0}],"turnStage":"place"},{"y":13,"x":1,"placedCard":false,"color":[1,0,1],"hand":[{"rotation":0,"type":"straight","hover":false,"y":0,"x":0},{"rotation":0,"type":"empty","hover":false,"y":0,"x":0},{"rotation":0,"type":"t","hover":false,"y":0,"x":0},{"rotation":0,"type":"straight","hover":false,"y":0,"x":0},{"rotation":0,"type":"straight","hover":false,"y":0,"x":0},{"rotation":0,"type":"straight","hover":false,"y":0,"x":0}],"turnStage":"place"}],"currentPlayerIndex":1,"grid":[[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":90,"type":"deadend","occupied":false,"tunnelId":2},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"cross","occupied":false,"tunnelId":2},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"deadend","occupied":false,"tunnelId":4},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":180,"type":"deadend","occupied":false,"tunnelId":3}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"t","occupied":false,"tunnelId":1},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}],[{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":270,"type":"deadend","occupied":false,"tunnelId":1},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false},{"rotation":0,"type":"void","occupied":false}]]}
+[03:35:24] applyGameState викликано
+[03:35:24] Успішно розібрано SYNC
+[03:35:24] 🧍 Кількість гравців: 4
+[03:35:24] Гравець 1: x=13, y=24
+[03:35:24] Гравець 2: x=13, y=2
+[03:35:24] Гравець 3: x=25, y=13
+[03:35:24] Гравець 4: x=1, y=13
+[03:35:24] Ваш ID: 4
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:24] [RECV] 
+[03:35:24] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:25] [RECV] 
+[03:35:25] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:26] [RECV] 
+[03:35:26] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:27] [RECV] 
+[03:35:27] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:28] [RECV] 
+[03:35:28] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:29] [RECV] 
+[03:35:29] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:30] [RECV] 
+[03:35:30] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:31] [RECV] 
+[03:35:31] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:32] [RECV] 
+[03:35:32] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:33] [RECV] 
+[03:35:33] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:34] [RECV] 
+[03:35:34] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:35] [RECV] 
+[03:35:35] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:36] [RECV] 
+[03:35:36] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
+[03:35:37] [RECV] 
+[03:35:37] draw.update — player.hand size: 6
